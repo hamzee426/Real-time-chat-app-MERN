@@ -1,0 +1,52 @@
+[
+    {
+      "img": "../../../assets/myacc.jpeg",
+      "name": "John",
+      "message": "Hello"
+    },
+    {
+      "img": "../../../assets/myacc.jpeg",
+      "name": "Emily",
+      "message": "Hi there"
+    },
+    {
+      "img": "../../../assets/myacc.jpeg",
+      "name": "Michael",
+      "message": "How are you?"
+    },
+    {
+      "img": "../../../assets/myacc.jpeg",
+      "name": "Sophia",
+      "message": "Nice to meet you"
+    },
+    {
+      "img": "../../../assets/myacc.jpeg",
+      "name": "Daniel",
+      "message": "What's up?"
+    },
+    {
+      "img": "../../../assets/myacc.jpeg",
+      "name": "Olivia",
+      "message": "Good morning"
+    },
+    {
+      "img": "../../../assets/myacc.jpeg",
+      "name": "David",
+      "message": "Have a great day"
+    },
+    {
+      "img": "../../../assets/myacc.jpeg",
+      "name": "Emma",
+      "message": "Take care"
+    },
+    {
+      "img": "../../../assets/myacc.jpeg",
+      "name": "James",
+      "message": "See you later"
+    },
+    {
+      "img": "../../../assets/myacc.jpeg",
+      "name": "Ava",
+      "message": "Best regards"
+    }
+  ]

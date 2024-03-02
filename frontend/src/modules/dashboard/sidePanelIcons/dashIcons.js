@@ -8,7 +8,7 @@ import { faSignOut } from "@fortawesome/free-solid-svg-icons";
 const onlineList = () => {
     return(
         <>
-        <div className="online-icons mt-8 h-screen">
+        <div className="online-icons mt-8 h-[540px]">
             <ul className="list-style-none">
                 <li className="mt-0"><FontAwesomeIcon icon={faUser} className="text-blue-500 size-8 cursor-pointer"/></li>
                 <li className="mt-7"><FontAwesomeIcon icon={faMessage} className="text-blue-500 size-8 cursor-pointer"/></li>

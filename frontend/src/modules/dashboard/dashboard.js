@@ -1,4 +1,7 @@
 import ChatProfiles from "./Profiles/chatProfiles";
+import Messages from "./chats/messages";
+import SendMessage from "./chats/enterMessage";
+import MiniNav from "./chats/miniNav";
 import Header from "./Profiles/header";
 import Navbar from "./navbar/navbar";
 import OnlineList from "./sidePanelIcons/dashIcons";
@@ -9,25 +12,21 @@ const Dashboard = () => {
       <div className="w-[100%] h-[100%] bg-slate-200">
         <Navbar />
         <div className="body flex">
-          <div className="nav-icons w-[90px] h-[100%] bg-white text-center">
+          <div className="nav-icons w-[82px] h-[88%] bg-white text-center">
             <OnlineList />
           </div>
           <div className="w-[100%] h-[100%] flex mt-2 ml-2">
-            <div className="profiles w-[400px] h-screen bg-transparent">
+            <div className="profiles w-[440px] h-[88%] bg-transparent">
                 <Header/>
                 <ChatProfiles/>
             </div>
 
-
-
-
-
-
-
-
-
-            <div className="chat w-[100%] h-screen border border-slate-700 bg-white"></div>
-            <div className="online-profiles  w-[100px] h-screen border border-slate-700 bg-white"></div>
+            <div className="chat w-[100%] h-[88%]  bg-white ml-1">
+              <MiniNav className=""/>
+              <Messages className="w-[100%] h-[440px] bg-black"/>
+              <SendMessage className="w-[100%] h-[60px] bg-gray-400 "/>
+            </div>
+            <div className="online-profiles w-[100px] h-[88%]  bg-white"></div>
           </div>
         </div>
       </div>
