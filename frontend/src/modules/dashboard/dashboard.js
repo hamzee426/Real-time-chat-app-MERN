@@ -22,11 +22,11 @@ const Dashboard = () => {
             </div>
 
             <div className="chat w-[100%] h-[88%]  bg-white ml-1">
-              <MiniNav className=""/>
-              <Messages className="w-[100%] h-[440px] bg-black"/>
-              <SendMessage className="w-[100%] h-[60px] bg-gray-400 "/>
+              <MiniNav className="border-b-2"/>
+              <Messages className="w-[100%] h-[440px] bg-white "/>
+              <SendMessage className="w-[100%] h-[50px] bg-white"/>
             </div>
-            <div className="online-profiles w-[100px] h-[88%]  bg-white"></div>
+            <div className="online-profiles w-[100px] h-[570px] ml-2 bg-white"></div>
           </div>
         </div>
       </div>

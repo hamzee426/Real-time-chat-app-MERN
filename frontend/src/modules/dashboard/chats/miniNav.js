@@ -17,7 +17,7 @@ const MiniNav = ({className=""}) => {
 
   return (
     <>
-      <div className={`mini-nav flex w-[100%] h-[64px] border-b-[0px] shadow-md border-gray-400 items-center ${className}`} >
+      <div className={`mini-nav flex w-[100%] h-[64px] shadow-md border-gray-400 items-center ${className}`} >
         <img src={img} className="size-[47px] ml-5 rounded-[100%]" />
         <p className="ml-4 text-lg font-semibold">User Name</p>
         <div className="flex-grow"></div>
